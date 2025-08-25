@@ -222,3 +222,37 @@ footer {
     from {opacity: 0; transform: translateY(25px);}
     to {opacity: 1; transform: translateY(0);}
 }
+
+footer {
+  background-color: #131A22; /* Amazon-like dark footer */
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 2px solid #232F3E;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-content p:hover {
+  color: #ff9900; /* Amazon orange hover effect */
+}
+
+.footer-content .disclaimer {
+  font-size: 12px;
+  color: #bbb;
+  margin-top: 8px;
+  line-height: 1.4;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color 0.3s ease;
+}
+
+.footer-content .disclaimer:hover {
+  color: #ffcc66; /* softer hover for disclaimer */
+}
+
